@@ -1,7 +1,7 @@
 
 class Test {
     public static void main(String[] args) {
-        nestedString();
+        killingFish();
     }
 
     static void test_one() {
@@ -37,6 +37,15 @@ class Test {
 
         System.out.println(test.solution(A));
 
+    }
+
+    static void killingFish() {
+
+        Fish test = new Fish();
+        int[] A = { 4, 3, 2, 1, 5 };
+        int[] B = { 0, 1, 0, 0, 0 };
+
+        System.out.println(test.solution(A, B));
     }
 
 }

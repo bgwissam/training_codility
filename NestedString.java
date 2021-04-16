@@ -1,6 +1,5 @@
 
-import java.util.Stack;
-import java.util.Vector;
+import java.util.*;
 
 public class NestedString {
     public int solution(String S) {
