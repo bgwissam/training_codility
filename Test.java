@@ -1,7 +1,7 @@
 
 class Test {
     public static void main(String[] args) {
-        countingDiscIntersections();
+        nestedString();
     }
 
     static void test_one() {
@@ -28,6 +28,15 @@ class Test {
 
         int result = test.solution(A);
         System.out.println(result);
+    }
+
+    static void nestedString() {
+        NestedString test = new NestedString();
+
+        String A = "{[(){[(){[(){[(){[(){[(){[(){[()()]}()]}()]}()]}()]}()]}()]}()]}";
+
+        System.out.println(test.solution(A));
+
     }
 
 }
