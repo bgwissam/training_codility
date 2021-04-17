@@ -1,7 +1,7 @@
 
 class Test {
     public static void main(String[] args) {
-        killingFish();
+        dominator();
     }
 
     static void test_one() {
@@ -46,6 +46,14 @@ class Test {
         int[] B = { 0, 1, 0, 0, 0 };
 
         System.out.println(test.solution(A, B));
+    }
+
+    static void dominator() {
+        Dominator test = new Dominator();
+
+        int[] A = { 0, 0, 1, 1 };
+
+        System.out.println(test.solution(A));
     }
 
 }
