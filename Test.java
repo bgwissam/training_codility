@@ -1,7 +1,7 @@
 
 class Test {
     public static void main(String[] args) {
-        dominator();
+        countFactors();
     }
 
     static void test_one() {
@@ -56,4 +56,27 @@ class Test {
         System.out.println(test.solution(A));
     }
 
+    static void equileader() {
+        Dominator test = new Dominator();
+
+        int[] A = { 4, 3, 4, 4, 4, 2 };
+
+        System.out.println(test.solution(A));
+    }
+
+    static void maxSumSlice() {
+
+        MaxSliceSum test = new MaxSliceSum();
+
+        int[] A = { 3, 2, -6, 4, 0 };
+
+        System.out.println(test.solution(A));
+    }
+
+    static void countFactors() {
+        CountFactors test = new CountFactors();
+
+        int N = 479001600;
+        System.out.println(test.solution(N));
+    }
 }
